@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vil R. Frontend Developer</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css\style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900|Montserrat|Raleway|Rubik+Mono+One|Chango|Fugaz+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <div class="logo">
+            <a href="#contact">
+            <img src="img\victory.svg" alt="website logo hand victory sign">
+            </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="#home" class="nav__link">Home</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#services" class="nav__link">Lo que hago</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#about" class="nav__link">Acerca de Mí</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#work" class="nav__link">Mi Trabajo</a>
+                </li>
+                <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contáctame</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Intro -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro"> 
+            Hola, soy <strong>Vil Rodriguez</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro"> front-end developer & ilustradora</p>
+        <img src="img\finalblink.gif"alt="watercolor illustration of Vil" class="intro__img">
+        <!--<img src="img\me_square2.png"alt="watercolor illustration of Vil" class="intro__img">-->
+    </section>
+    <!-- About me & services-->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services"> Skills</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Desarrollo Web</h3>
+                    <p>Manejo de JavaScript (EMS6), HTML5, CSS3. Node.js y NPM, test unitarios con Jest, Firebase, ambiente Windows y Linux, CLI. Iniciandome en Angular, TypeScript; fan de Git y GitHub. Fluida en el idioma Inglés.  👩‍💻 Sí tienes otra tecnología en mente, estoy dispuesta a tomar el reto de aprenderla. </p>
+                </div> <!-- service-->
+                <div class="service">
+                    <h3>Ilustración y diseño</h3>
+                    <p> Soy ilustradora y dibujante tradicional y digital. Manejo Adobe Photoshop, Illustrator y Figma; programas de ilustración digital como Paint Tool Sai, Clip Studio Paint y tableta Wacom; mi medios predilectos son las acuarelas, tintas y guache.</p>
+                </div> <!-- service-->
+                <div class="service">
+                        <h3>Hábilidades Blandas</h3>
+                        <p>Aplico Growth Mindset para mi carrera profesional. Me gusta la comunicación acertiva y el trabajo en equipo. Disfruto de compartir mis conocimientos y colaborar en buscar una solución.</p>
+                </div><!-- service-->
+            </div><!-- services-->
+            <a href="#work" class="btn">Mis Proyectos</a>
+            <a href="https://drive.google.com/file/d/1Dm38KPKORx80nFUPkBe18Fp9IB3doh0P/view" class="btn" target ="_blank">Descarga mi CV</a>
+            <div class="social-list__item">
+                <a href="#header" class="btn-go-top__link" title="Regresar al Inicio">
+                    <i class="fas fa-angle-up"></i>
+                </a>
+            </div>
+    </section>
+            <!-- About me -->
+            <section class="about-me" id="about">
+                <h2 class="section__title section__title--about">Acerca de Mí</h2>
+                <p class="section__subtitle section__subtitle--about"> Siempre aprendiendo</p>
+                <div class="about-me__body">
+                    <p>Soy Front End Developer Junior con background en Ilustración y diseño. He creado proyectos de desarrollo web usando HTML, CSS y Javascript. Disfruto ser curiosa y autodidacta, compartir mis conocimientos y trabajar en equipo multidisciplinario para desarrollar soluciones eficaces. Aspiro desarrollarme como Full Stack y unir mi pasión por la ilustración con la programación.</p>
+                    
+                    <p>Me encantan revisar la web y aprender a usar tecnologías para aplicarlas a nuevos proyectos; cuando no estoy codeando o ilustrando puedes encontrarme manejando bicicleta por la ciudad 🚲, viendo alguna película o serie y tomando fotos a mi gato. 🐈</p>
+                </div>
+                <img src="img\meround.png" alt="watercolor illustration of Vil" class="about-me__img">
+                <div class="social-list__item">
+                    <a href="#header" class="btn-go-top__link" title="Regresar al Inicio">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+                </div>
+            </section>
+            <!-- Projects -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">Mis proyectos</h2>
+                <p class="section__subtitle section__subtitle--work">Trabajos de Desarrollo web e Ilustración</p>
+                <div class="portfolio">
+                    <!-- Portfolio Item -->
+                    <div  class="portfolio__item">
+                        <p> Md-Links - Librería NPM </p>
+                            <a href="https://github.com/vilrodriguez/LIM011-fe-md-links" class="portfolio__item__link" title="GitHub Repo" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        
+                        <a href="https://www.npmjs.com/package/md-links-validator" class="portfolio__item" title="Vé el proyecto en NPM" target="_blank">
+                            <img src="img\npm_.png" class="portfolio__img">
+                        </a>
+                    </div>
+                    <!-- Portfolio Item -->
+                    <div  class="portfolio__item">
+                        <p> Cifrado Cesar </p> 
+                        <a href="https://github.com/vilrodriguez/LIM011-cipher" class="portfolio__item__link" title="GitHub Repo" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://vilrodriguez.github.io/LIM011-cipher/src/" class="portfolio__item" target="_blank">
+                                <img src="img\cesar_.PNG" class="portfolio__img">
+                                
+                        </a>
+                    </div>
+                    <!-- Portfolio Item -->
+                    <div  class="portfolio__item">
+                            <p> Bon-A-Petit / Red Social </p> 
+                            <a href="https://github.com/vilrodriguez/LIM011-fe-social-network" class="portfolio__item__link" title="GitHub Repo" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        <a href="#" class="portfolio__item" target="_blank">
+                                <img src="img\redsocial.png" class="portfolio__img">
+                        </a>
+                    </div>
+                    <!-- Portfolio Item -->
+                    <div  class="portfolio__item">
+                        <p> Ilustración </p>
+                        <a href="https://www.artstation.com/vilmango" class="portfolio__item__link" title="Vilma´s Artstation Profile" target="_blank">
+                            <i class="fab fa-artstation"></i>
+                        </a>
+                        <a href="https://www.artstation.com/vilmango" class="portfolio__item" target="_blank">
+                            <img src="img\vil-rodriguez-with1.jpg" class="portfolio__img">
+                            
+                        </a>
+                    </div>
+                </div>
+                <div class="social-list__item">
+                    <a href="#header" class="btn-go-top__link" title="Regresar al Inicio">
+                        <i class="fas fa-angle-up"></i>
+                    </a>
+                </div>
+
+            </section>
+    </section>
+    <footer class ="footer" id="contact">
+        <a href="mailto:lavilrodriguez@outlook.com?subject= Hey Vilma! He revisado tu Portfolio y me interesa contactarte." class="footer__link" title="Email me! 📧">📧 lavilrodriguez@outlook.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://github.com/vilrodriguez/" class="social-list__link" title="GitHub 💻" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/vilrodriguez/" class="social-list__link" title="Perfil de Linked-in 👋" target="_blank">
+                        <i  class="fab fa-linkedin"></i>
+                    </a>
+            </li>
+            <li class="social-list__item">
+                    <a href="https://www.artstation.com/vilmango" class="social-list__link" title="Galería ArtStation 👩‍🎨" target="_blank">
+                        <i class="fab fa-artstation"></i>
+                    </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
